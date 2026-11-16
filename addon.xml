@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.tvstatus" name="TV Show Status" version="1.0.0" provider-name="Devin">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Browse your TV library by airing status</summary>
+        <summary lang="es_ES">Explora tu biblioteca de series por estado de emisión</summary>
+        <description lang="en_GB">Lists the TV series in your Kodi library with their airing status (Ended, Cancelled, Continuing...), lets you filter by status - including shows that have finished airing for good - and can refresh the stored statuses from TMDB.</description>
+        <description lang="es_ES">Lista las series de tu biblioteca de Kodi con su estado de emisión (Finalizada, Cancelada, En emisión...), permite filtrar por estado -incluidas las series que ya no emitirán nunca- y puede actualizar los estados guardados consultando TMDB.</description>
+        <platform>all</platform>
+        <language>en_GB</language>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

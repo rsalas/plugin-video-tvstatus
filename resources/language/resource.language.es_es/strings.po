@@ -1,0 +1,217 @@
+# Kodi Media Center language file
+# Addon Name: TV Show Status
+# Addon id: plugin.video.tvstatus
+# Addon Provider: Devin
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin.video.tvstatus\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "TV Show Status"
+msgstr "Estado de series"
+
+msgctxt "#30002"
+msgid "Browse your TV library by airing status"
+msgstr "Explora tu biblioteca de series por estado de emisión"
+
+msgctxt "#30003"
+msgid "Lists the TV series in your Kodi library with their airing status (Ended, Cancelled, Continuing...), lets you filter by status - including shows that have finished airing for good - and can refresh the stored statuses from TMDB."
+msgstr "Lista las series de tu biblioteca de Kodi con su estado de emisión (Finalizada, Cancelada, En emisión...), permite filtrar por estado -incluidas las series que ya no emitirán nunca- y puede actualizar los estados guardados consultando TMDB."
+
+msgctxt "#30010"
+msgid "Ended series"
+msgstr "Series terminadas"
+
+msgctxt "#30011"
+msgid "Browse series"
+msgstr "Explorar series"
+
+msgctxt "#30012"
+msgid "Filter by status"
+msgstr "Filtrar por estado"
+
+msgctxt "#30013"
+msgid "Update statuses from TMDB"
+msgstr "Actualizar estados desde TMDB"
+
+msgctxt "#30014"
+msgid "Settings"
+msgstr "Ajustes"
+
+msgctxt "#30015"
+msgid "No TV shows in your library"
+msgstr "No hay series en tu biblioteca"
+
+msgctxt "#30016"
+msgid "%d series"
+msgstr "%d series"
+
+msgctxt "#30020"
+msgid "All"
+msgstr "Todas"
+
+msgctxt "#30021"
+msgid "Ended"
+msgstr "Terminadas"
+
+msgctxt "#30022"
+msgid "Continuing"
+msgstr "En emisión"
+
+msgctxt "#30023"
+msgid "Upcoming"
+msgstr "Próximas"
+
+msgctxt "#30024"
+msgid "No status"
+msgstr "Sin estado"
+
+msgctxt "#30025"
+msgid "Other"
+msgstr "Otras"
+
+msgctxt "#30026"
+msgid "By concrete status"
+msgstr "Por estado concreto"
+
+msgctxt "#30030"
+msgid "Ended"
+msgstr "Finalizada"
+
+msgctxt "#30031"
+msgid "Cancelled"
+msgstr "Cancelada"
+
+msgctxt "#30032"
+msgid "Canceled"
+msgstr "Cancelada"
+
+msgctxt "#30033"
+msgid "Continuing"
+msgstr "En emisión"
+
+msgctxt "#30034"
+msgid "Returning Series"
+msgstr "En emisión"
+
+msgctxt "#30035"
+msgid "In Production"
+msgstr "En producción"
+
+msgctxt "#30036"
+msgid "Post Production"
+msgstr "En postproducción"
+
+msgctxt "#30037"
+msgid "Planned"
+msgstr "Planeada"
+
+msgctxt "#30038"
+msgid "Pilot"
+msgstr "Piloto"
+
+msgctxt "#30039"
+msgid "Rumored"
+msgstr "Rumoreada"
+
+msgctxt "#30040"
+msgid "In Development"
+msgstr "En desarrollo"
+
+msgctxt "#30050"
+msgid "General"
+msgstr "General"
+
+msgctxt "#30051"
+msgid "TMDB"
+msgstr "TMDB"
+
+msgctxt "#30052"
+msgid "TMDB API key"
+msgstr "Clave API de TMDB"
+
+msgctxt "#30053"
+msgid "Optional. Get a free API key at themoviedb.org (Settings > API). If empty, the key bundled with Kodi's official TMDB scrapers is used when available."
+msgstr "Opcional. Consigue una clave gratuita en themoviedb.org (Ajustes > API). Si se deja vacía, se usa la clave incluida en los scrapers oficiales de TMDB de Kodi cuando estén instalados."
+
+msgctxt "#30054"
+msgid "Reuse TMDB scraper key"
+msgstr "Reutilizar clave del scraper TMDB"
+
+msgctxt "#30055"
+msgid "When no API key is set above, try to reuse the TMDB key embedded in Kodi's official TMDB scrapers."
+msgstr "Cuando no hay clave API configurada arriba, intenta reutilizar la clave TMDB integrada en los scrapers oficiales de TMDB de Kodi."
+
+msgctxt "#30056"
+msgid "Display"
+msgstr "Visualización"
+
+msgctxt "#30057"
+msgid "Default filter"
+msgstr "Filtro por defecto"
+
+msgctxt "#30058"
+msgid "Filter applied when using 'Browse series'."
+msgstr "Filtro que se aplica al usar 'Explorar series'."
+
+msgctxt "#30059"
+msgid "Show status in title"
+msgstr "Mostrar estado en el título"
+
+msgctxt "#30060"
+msgid "Appends the airing status to each series title, e.g. 'Breaking Bad [Ended]'."
+msgstr "Añade el estado de emisión al título de cada serie, p. ej. 'Breaking Bad [Finalizada]'."
+
+msgctxt "#30070"
+msgid "Update TMDB status"
+msgstr "Actualizar estado TMDB"
+
+msgctxt "#30071"
+msgid "Checking %d of %d"
+msgstr "Comprobando %d de %d"
+
+msgctxt "#30072"
+msgid "Update complete: %d updated, %d unchanged, %d errors, %d without TMDB ID"
+msgstr "Actualización completa: %d actualizadas, %d sin cambios, %d errores, %d sin ID de TMDB"
+
+msgctxt "#30073"
+msgid "No TMDB API key available"
+msgstr "No hay clave API de TMDB disponible"
+
+msgctxt "#30074"
+msgid "Set your own TMDB API key in this add-on's settings, or install Kodi's official TMDB scraper so its bundled key can be reused."
+msgstr "Configura tu propia clave API de TMDB en los ajustes de este addon, o instala el scraper oficial de TMDB de Kodi para reutilizar su clave integrada."
+
+msgctxt "#30075"
+msgid "Status updated"
+msgstr "Estado actualizado"
+
+msgctxt "#30076"
+msgid "Status is already up to date"
+msgstr "El estado ya está actualizado"
+
+msgctxt "#30077"
+msgid "Could not retrieve status from TMDB"
+msgstr "No se pudo obtener el estado de TMDB"
+
+msgctxt "#30078"
+msgid "No series match this filter"
+msgstr "Ninguna serie coincide con este filtro"
+
+msgctxt "#30079"
+msgid "Cancelled update"
+msgstr "Actualización cancelada"
+
+msgctxt "#30080"
+msgid "Failed to write the new status to the Kodi library"
+msgstr "No se pudo escribir el nuevo estado en la biblioteca de Kodi"

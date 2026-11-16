@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1">
+    <section id="plugin.video.tvstatus">
+        <category id="general" label="30050">
+            <group id="1" label="30051">
+                <setting id="tmdb_api_key" type="string" label="30052" help="30053">
+                    <level>0</level>
+                    <default/>
+                    <constraints>
+                        <allowempty>true</allowempty>
+                    </constraints>
+                    <control type="edit" format="string">
+                        <heading>30052</heading>
+                    </control>
+                </setting>
+                <setting id="use_scraper_key" type="boolean" label="30054" help="30055">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+            </group>
+            <group id="2" label="30056">
+                <setting id="default_filter" type="string" label="30057" help="30058">
+                    <level>0</level>
+                    <default>all</default>
+                    <constraints>
+                        <options>
+                            <option label="30020">all</option>
+                            <option label="30021">ended</option>
+                            <option label="30022">continuing</option>
+                            <option label="30023">upcoming</option>
+                            <option label="30024">unknown</option>
+                            <option label="30025">other</option>
+                        </options>
+                    </constraints>
+                    <control type="list" format="string">
+                        <heading>30057</heading>
+                    </control>
+                </setting>
+                <setting id="show_status_suffix" type="boolean" label="30059" help="30060">
+                    <level>0</level>
+                    <default>true</default>
+                    <control type="toggle"/>
+                </setting>
+            </group>
+        </category>
+    </section>
+</settings>
