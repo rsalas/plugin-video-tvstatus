@@ -20,11 +20,12 @@ PROPERTIES_FULL = [
 PROPERTIES_MINIMAL = [
     'title', 'plot', 'year', 'premiered', 'art', 'thumbnail', 'fanart',
     'rating', 'votes', 'genre', 'uniqueid', 'imdbnumber', 'watchedepisodes',
+    'playcount',
 ]
 
 PROPERTIES_BASIC = [
     'title', 'year', 'premiered', 'art', 'thumbnail', 'fanart',
-    'rating', 'votes', 'uniqueid',
+    'rating', 'votes', 'uniqueid', 'playcount',
 ]
 
 _CACHE_TTL = 60

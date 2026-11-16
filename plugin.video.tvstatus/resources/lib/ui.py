@@ -100,6 +100,12 @@ def _art_dict(show):
 
 def _info_dict(show, title):
     info = {'title': title, 'mediatype': 'tvshow'}
+    try:
+        info['playcount'] = int(float(show.get('playcount') or 0))
+    except (TypeError, ValueError):
+        info['playcount'] = 0
+    if show.get('lastplayed'):
+        info['lastplayed'] = show['lastplayed']
     if show.get('plot'):
         info['plot'] = show['plot']
     if show.get('premiered'):
